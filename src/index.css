@@ -12,11 +12,14 @@
     background: linear-gradient(90deg, rgba(212, 172, 84, 1) 0%, rgba(255, 222, 172, 1) 35%, rgba(227, 186, 93, 1) 100%);
     color: black;
     border: none;
+    box-shadow: 5px 5px 5px rgb(155, 154, 154)
   }
   .megaButton{
     background: #F44A33;
     color: white;
     border: none;
+    box-shadow: 5px 5px 5px rgb(155, 154, 154)
+
   }
 
  
