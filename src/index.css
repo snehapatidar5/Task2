@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow-x:hidden;
+}
 .gradient-button {
     background: linear-gradient(90deg, rgba(212, 172, 84, 1) 0%, rgba(255, 222, 172, 1) 35%, rgba(227, 186, 93, 1) 100%);
     color: rgb(7, 7, 7); 
