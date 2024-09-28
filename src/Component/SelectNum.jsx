@@ -6,8 +6,8 @@ import Arrow from '../assets/arrow.png'
 function SelectNum({ selectedNumbers, megaBallNumber, clearSelections, autoSelect }) {
     const fixedCircles = Array(5).fill(null); 
     return (
-      <div>
-        <div className="flex justify-between items-center px-6 w-[1145px] h-[100px] border border-gray-400 rounded-lg mt-2 ml-[110px]">
+      <div className=''>
+        <div className="flex justify-between items-center px-6 w-[1145px] h-[100px] border border-gray-400 rounded-lg mt-2 ">
           <div className="flex items-center">
             <h2 className="text-xl font-semibold text-gray-500">Selected numbers:</h2>
             <img src={Arrow} className='ml-[-25px]' />
