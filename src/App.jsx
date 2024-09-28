@@ -33,10 +33,12 @@ function App() {
 
   return (
     <>
+      <div className=' '>
       <div className='flex justify-center gap-6'>
         <MainBall selectedNumbers={selectedNumbers} setSelectedNumbers={setSelectedNumbers} />
         <MegaBall megaBallNumber={megaBallNumber} setMegaBallNumber={setMegaBallNumber} />
       </div>
+      <div className='flex flex-col justify-center items-center'>
       <SelectNum
         selectedNumbers={selectedNumbers}
         megaBallNumber={megaBallNumber}
@@ -44,6 +46,8 @@ function App() {
         autoSelect={autoSelect}
       />
       <Cart />
+      </div>
+      </div>
     </>
   );
 }
