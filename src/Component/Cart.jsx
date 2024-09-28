@@ -3,7 +3,7 @@ import React from 'react'
 function Cart() {
     return (
 
-        <div className='flex justify-between p-2 px-6 w-[1145px]  mt-2 ml-[110px]'>
+        <div className='flex justify-between p-2 px-6 w-[1145px]  mt-2 '>
             <div>
                 <p className='text-md text-gray-500'><span className='font-bold'>Note :</span> Problem set compensation the harmonics, understood. Hundreds times, </p>
                 <p className='text-md text-gray-500'>of until they employed sure a behind boundless their for.</p>
